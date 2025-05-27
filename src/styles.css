@@ -28,10 +28,16 @@ body {
   
   .grid-3-columns {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
+    justify-items: center; /* centers each card in its grid cell */
+      }
+      
   .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
+  }
+
+  .centered-grid {
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   .card {
@@ -236,5 +242,18 @@ body {
         padding: 30px;
       }
   }
+
+  .card iframe {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .card {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
   
   

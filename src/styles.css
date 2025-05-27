@@ -35,10 +35,6 @@ body {
   }
 
 
- .embed {
-    width: 100%;
-    aspect-ratio: 1 /1;
-  }
 
   .centered-grid {
     max-width: 1200px;

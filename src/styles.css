@@ -28,11 +28,16 @@ body {
   
   .grid-3-columns {
     grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center; /* centers each card in its grid cell */
-      }
+  }
       
   .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
+  }
+
+
+ .embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
   }
 
   .centered-grid {
@@ -253,7 +258,11 @@ body {
     max-width: 100%;
     box-sizing: border-box;
   }
-  
+
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
+
   
   
   
